@@ -13,7 +13,7 @@ export default [
       sourceType: 'script',
       globals: globals.browser,
     },
-    
+
     rules: {
       ...js.configs.recommended.rules,
       'no-var': 'error',
